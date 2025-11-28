@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/newuser_register.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<section>
+      <nav class="navbar">
+            
+             <img src="./imgs/header_img.png" alt="HEALTH TRAINIGN SOLUTIONS" class="header_img">
+            <ul class="navul">
+                <li id="navli1"><a href="./index.html" class="nava1">Home</a></li>
+                <li id="navli2"><a href="./index.html#about" class="nava2">About Us</a></li>
+                <li id="navli3"><a href="" class="nava3">FAQ</a></li>
+                <li id="navli4"><a href="" class="nava4">View Course</a></li>
+                <li id="navli5"><a href="" class="nava5">Consultation</a></li>
+            </ul> &nbsp;
+                <button class="btn btn-contact">Contact US</button> &nbsp; &nbsp;
+                <button class=" btn btn-login">Login</button>
+        </nav>
+
+</section>
+<!-- NAV END -->
+
+
+    <main class="container">
+
+        <div class="main-panel small-panel">
+            <div class="header-section">
+                <h2>New User Registration</h2>
+               <a href="./login.html">Login Page</a>
+            </div>
+
+    <div class="login-panel mb-4">
+        
+                <form action="/user_registration" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="registerfirstName">First Name:</label>
+                        <input type="text" id="registerfirstName" name="registerfirstName" required>
+                    </div>
+
+                    <!-- lastname -->
+                    <div class="form-group">
+                        <label for="registerlastname">Last Name:</label>
+                        <input type="text" id="registerlastname" name="registerlastname" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="registeremail">Email:</label>
+                        <input type="email" id="registeremail" name="registeremail" required>
+                    </div> 
+
+                     <div class="form-group">
+                        <label for="registerpassword">Password:</label>
+                        <input type="password" id="registerpassword" name="registerpassword" required>
+                    </div> 
+                
+                    
+                    <div class="form-group">
+                        <label for="registerphone">Phone:</label>
+                        <input type="tel" id="registerphone" name="registerphone" required>
+                    </div>
+
+                    <button class="btn btn-login" type="submit">Register</button><br><br>
+              
+
+    </div> <br>
+                <h3  id="accregistermsg"></h3>
+
+    </main>
+
+
+     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Aavash Productions, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>

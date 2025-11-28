@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV CONTENTS */
+.header_img{
+    margin-left: 15%;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline;
+    width: 175px;
+    margin-top: 0px;
+}
+
+.navbar{
+    
+    background-color: black;
+}
+
+.navul{
+    display: inline-flex;
+    position: relative;
+    
+}
+#navli1,
+#navli2,
+#navli3,
+#navli4,
+#navli5{
+    color: #eaeaea;
+    display: inline-flex;
+    margin-left: 2%;
+    padding-left: 50px;
+}
+
+.nava1,
+.nava2,
+.nava3,
+.nava4,
+.nava5{
+display: inline-block;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.50rem;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+
+}
+
+.btn-contact{
+color: red ;
+font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+}
+.btn-contact:hover{
+color: white ;
+font-weight: 600;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.btn-login{
+    color: white ;
+font-weight: 600;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* HEADER CSS */
+.header_div{
+    display: flex;
+     height: 200px;
+      width: 100%;
+      border: 2px solid #fff;
+          align-items: top;
+}
+
+
+.header_div2{
+     width: 200px;
+    display: flex;
+height: 200px; 
+margin-left: 20%;
+    position: relative;
+}
+
+.dummy_website_img {
+   
+    max-width: 100%; 
+    height: 200px;
+}
+.header_div3{
+    width: auto;
+    height: 50px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 1;
+   text-wrap: wra;
+    
+}
+.First_div_header {
+    color: red;
+    margin: 0;
+}
+.header_p {
+    margin: 0;
+    color: #ccc;
+}
+
+.header_div4{
+    width: 200px;
+    display: flex;
+    height: 200px; 
+    margin-right: 10%;
+    position: relative;
+    
+}
+.CPD_img{
+    max-width: 100%; 
+    height: 50px;
+}
+
+/* MAIN CONTENT CSS */
+
+.main_div1{
+    max-width:1200px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.main_div1_p{
+  word-wrap: break-word;
+} 
+
+
+
+/* MAIN BODY CSS */
+.main_body{
+    display: flex;
+     max-height: 1000px;
+      width: 100%;
+      border: 2px solid #fff;
+          
+}
+
+
+
+/* Main body Column 1 */
+.main_body_column1{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+    /* main_body ROW1 */
+
+.cursor_img {
+    max-height: 30px;
+    max-width: 30px;
+    margin-top: 12px;
+    margin-left:255px;
+}
+
+.select_course{
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.cursor_img, .select_course{
+    
+     display: inline-block;
+}
+
+.btn-course{
+   color: black ;
+    background-color: #f0f0f0;
+  width: 100%;
+    align-items: center;
+    border:solid #f0f0f0 ;
+}
+.btn-course:hover{
+color: white ;
+    background-color: red;
+    
+}
+
+
+.span1span_header
+{
+    font-size: 1.5em;
+    font-weight: 800;
+     margin: 1.5rem 0 0.5rem 0;
+    font-size: 1em;
+     font-size: large;
+    text-align: center;
+}
+.span_description{
+    font-size: 14px;
+    font-weight: 0px;
+}
+
+
+ /* main_body ROW2   */
+
+ 
+
+.location_icon_img{
+    max-height: 30px;
+    max-width: 30px;
+    margin-top: 12px;
+    margin-left:255px;
+    display: inline;
+}
+
+ .Select_Location
+ { color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+ .locations   {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+details 
+ {
+    
+    counter-increment: list-item 0;
+    list-style: inside disclosure-closed;
+}
+summary{ 
+    unicode-bidi: isolate;
+}
+
+.location_btn{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    line-height: 1;
+    padding: 4px 8px;
+    border: none;
+    background-color: #eeeeee;
+    color: black;
+    font-size: 1em;
+    transition: all 0.15s;
+    text-wrap: balance;
+       
+}
+.location_btn, .location-text, .location_title{
+        font-size: 1em;
+     font-weight: 800;
+}
+
+/* Main BODY COLUMN 2 */
+
+.main_body_column2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+        box-sizing: border-box;
+}
+
+/* Column2 row1 */
+.grp_img_icon{
+    max-height: 30px;
+    max-width: 30px;
+    margin-top: 12px;
+    margin-left:24px;
+    display: inline;
+}
+.group_booking_header{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1;
+    display: inline;
+}
+
+.grp_booking_info{
+ margin-left:24px;
+}
+
+/* Column2 ROW2 */
+
+.certificate_icon_img{
+ max-height: 40px;
+    max-width: 40px;
+    margin-top: 12px;
+    margin-left:24px;
+    display: inline;
+}
+.available_courses{
+      color: black;
+    font-size: 25px;
+    font-weight: 850;
+    line-height: 1;
+    display: inline;
+}
+
+/* COLUMN2 ROW2 COURSE LISTING */
+
+.course_listing{
+    line-height: 1;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 250px;
+    margin-right: 20px;
+    display: inline-flex;
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.available_courses_listings{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+ margin-left:48px;
+  
+
+}
+.course_listing_course_code{
+  color: black;
+    font-size: 20px;
+    font-weight: 850;
+    text-wrap: break-word;
+}
+.course_listing_title{
+text-wrap: break-word;
+}
+.course_listing_prefix,
+ .course_listing_date, 
+.course_listing_time,
+.course_listing_cost {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-right: 2px;
+    font-size: 0.9em;
+    
+}
+
+.course_listing_link{
+        font-size: 1.2em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: #eeeeee;
+    background-color: red;
+}
+
+/* SECOND SECTION */
+
+.section2{
+    background-color: red;
+    width: 100%;
+    max-height: 1000px;
+    border-radius: 5px;
+}
+
+.about_us{
+       background-color: red;
+   width: 100%;
+    justify-content:center ;
+    display: flex;
+    position: relative;
+}
+
+.section2_p1{
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+
+
+/* ABOUT US 2 */
+
+
+.section2_about_ICT_Training{
+   
+        color: white;
+    font-size: 96px;
+    line-height: 95px;
+    font-weight: 800;
+}
+
+.about_us3
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.about_us_h4{
+color: #eaeaea;
+font-weight: 800;
+font-size: 20px;
+
+}
+
+.about_us_p2{
+    color: #eaeaea;
+font-weight: 800;
+font-size: 18px;
+}
+
+.about_us_p3{
+     color: #eaeaea;
+font-weight: 800;
+font-size: 16px;
+}
+
+.about_us_p4{
+
+     color: #eaeaea;
+font-weight: 800;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+
+
+footer{
+    text-align: center;
+}

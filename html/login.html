@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <nav class="navbar">
+            
+             <img src="./imgs/header_img.png" alt="HEALTH TRAINIGN SOLUTIONS" class="header_img">
+            <ul class="navul">
+                <li id="navli1"><a href="./index.html" class="nava1">Home</a></li>
+                <li id="navli2"><a href="./index.html#about" class="nava2">About Us</a></li>
+                <li id="navli3"><a href="" class="nava3">FAQ</a></li>
+                <li id="navli4"><a href="" class="nava4">View Course</a></li>
+                <li id="navli5"><a href="" class="nava5">Consultation</a></li>
+            </ul> &nbsp;
+                <button class="btn btn-contact">Contact US</button> &nbsp; &nbsp;
+                <button class=" btn btn-login">Login</button>
+        </nav>
+<!-- END OF NAV  -->
+
+<!-- login page -->
+<div class="main-panel small-panel">
+            <div class="header-section">
+                <h2>ICT Training Login</h2>
+               
+            </div>
+            
+            <!-- Login Form -->
+            <div class="login-panel mb-4">
+                <form id="loginform">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="loginemail" placeholder="Enter your email">
+
+                    <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="loginpassword" placeholder="Enter your Password" >
+                </div>
+                </div>
+                <button class="btn btn-login" type="submit">Login</button><br><br>
+
+                <marquee behavior="slide" direction="up">New User? <a href="./newuser_register.html">Click to Register!</a></marquee>
+                </form>
+            </div>
+            
+            
+            <!-- Confirmation Message (Initially hidden - shown after registration) -->
+          <h3 style="display: none;" id="invalid_login">Invalid Username/Password</h3>
+             
+        </div>
+
+</section>
+</body>
+</html>
